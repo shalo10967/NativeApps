@@ -1,0 +1,14 @@
+com/reportsiniestros/BuildConfig.java
+ com.reportsiniestros.BuildConfig
+com/reportsiniestros/ReactNativeFlipper.java
+ com.reportsiniestros.ReactNativeFlipper
+ com.reportsiniestros.ReactNativeFlipper$1
+ com.reportsiniestros.ReactNativeFlipper$2
+ com.reportsiniestros.ReactNativeFlipper$2$1
+com/reportsiniestros/MainApplication.java
+ com.reportsiniestros.MainApplication
+ com.reportsiniestros.MainApplication$1
+com/reportsiniestros/MainActivity.java
+ com.reportsiniestros.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

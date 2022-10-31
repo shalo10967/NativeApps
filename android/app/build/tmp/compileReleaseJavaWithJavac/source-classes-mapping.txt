@@ -1,0 +1,9 @@
+com/reportsiniestros/BuildConfig.java
+ com.reportsiniestros.BuildConfig
+com/reportsiniestros/MainApplication.java
+ com.reportsiniestros.MainApplication
+ com.reportsiniestros.MainApplication$1
+com/reportsiniestros/MainActivity.java
+ com.reportsiniestros.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

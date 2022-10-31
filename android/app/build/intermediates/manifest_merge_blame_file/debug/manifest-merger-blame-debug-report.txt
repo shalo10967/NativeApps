@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reportsiniestros"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:11:5-77
+11-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:11:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:5:5-79
+13-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:6:5-75
+14-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:6:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:8:5-68
+15-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:9:5-64
+16-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:9:22-62
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:10:5-80
+17-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:12:5-66
+18-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:13:22-78
+20    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+20-->[:react-native-sensitive-info] D:\Personal\NativApps\ReportSiniestros\node_modules\react-native-sensitive-info\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-72
+20-->[:react-native-sensitive-info] D:\Personal\NativApps\ReportSiniestros\node_modules\react-native-sensitive-info\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-69
+21    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[:react-native-sensitive-info] D:\Personal\NativApps\ReportSiniestros\node_modules\react-native-sensitive-info\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-74
+21-->[:react-native-sensitive-info] D:\Personal\NativApps\ReportSiniestros\node_modules\react-native-sensitive-info\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-71
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\7b8ee650109f0e5e16714d00e5a478cb\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:5-82
+22-->[com.google.android.gms:play-services-iid:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\7b8ee650109f0e5e16714d00e5a478cb\transformed\jetified-play-services-iid-17.0.0\AndroidManifest.xml:23:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\juan.martinez\.gradle\caches\transforms-3\31fbc1e7ce13f24116994e62eeccf439\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:5-110
+23-->[com.android.installreferrer:installreferrer:1.1.2] C:\Users\juan.martinez\.gradle\caches\transforms-3\31fbc1e7ce13f24116994e62eeccf439\transformed\jetified-installreferrer-1.1.2\AndroidManifest.xml:9:22-107
+24
+25    <application
+25-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:15:5-33:19
+26        android:name="com.reportsiniestros.MainApplication"
+26-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:16:7-38
+27        android:allowBackup="false"
+27-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:20:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.5.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\a69d1ca5c4f33e460b91da2162f14ff3\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:18:7-41
+31        android:label="@string/app_name"
+31-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:17:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:19:7-52
+33        android:theme="@style/AppTheme"
+33-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:21:7-38
+34        android:usesCleartextTraffic="true" >
+34-->D:\Personal\NativApps\ReportSiniestros\android\app\src\debug\AndroidManifest.xml:8:9-44
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->D:\Personal\NativApps\ReportSiniestros\android\app\src\debug\AndroidManifest.xml:11:9-86
+35-->D:\Personal\NativApps\ReportSiniestros\android\app\src\debug\AndroidManifest.xml:11:19-83
+36        <activity
+36-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:22:7-32:18
+37            android:name="com.reportsiniestros.MainActivity"
+37-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:23:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:25:9-86
+39            android:label="@string/app_name"
+39-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:24:9-41
+40            android:launchMode="singleTask"
+40-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:26:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:27:9-51
+42            <intent-filter>
+42-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:28:9-31:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:29:13-65
+43-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:29:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:30:13-73
+45-->D:\Personal\NativApps\ReportSiniestros\android\app\src\main\AndroidManifest.xml:30:23-70
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+50            android:name="com.imagepicker.FileProvider"
+50-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-56
+51            android:authorities="com.reportsiniestros.provider"
+51-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-60
+52            android:exported="false"
+52-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+53            android:grantUriPermissions="true" >
+53-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+54            <meta-data
+54-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:58
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+56                android:resource="@xml/provider_paths" />
+56-->[:connectedbits_react-native-image-picker] D:\Personal\NativApps\ReportSiniestros\node_modules\@connectedbits\react-native-image-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-55
+57        </provider>
+58
+59        <activity
+59-->[androidx.biometric:biometric:1.0.1] C:\Users\juan.martinez\.gradle\caches\transforms-3\ef76c88d178df4add434405eebea45ab\transformed\biometric-1.0.1\AndroidManifest.xml:28:9-31:67
+60            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
+60-->[androidx.biometric:biometric:1.0.1] C:\Users\juan.martinez\.gradle\caches\transforms-3\ef76c88d178df4add434405eebea45ab\transformed\biometric-1.0.1\AndroidManifest.xml:29:13-78
+61            android:exported="true"
+61-->[androidx.biometric:biometric:1.0.1] C:\Users\juan.martinez\.gradle\caches\transforms-3\ef76c88d178df4add434405eebea45ab\transformed\biometric-1.0.1\AndroidManifest.xml:30:13-36
+62            android:theme="@style/DeviceCredentialHandlerTheme" />
+62-->[androidx.biometric:biometric:1.0.1] C:\Users\juan.martinez\.gradle\caches\transforms-3\ef76c88d178df4add434405eebea45ab\transformed\biometric-1.0.1\AndroidManifest.xml:31:13-64
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\e3cd7e9258d30953b9697a4ece61687c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\e3cd7e9258d30953b9697a4ece61687c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\e3cd7e9258d30953b9697a4ece61687c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\e3cd7e9258d30953b9697a4ece61687c\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\227b7dd598231d24f074b2fdf07d087a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\227b7dd598231d24f074b2fdf07d087a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\juan.martinez\.gradle\caches\transforms-3\227b7dd598231d24f074b2fdf07d087a\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>
